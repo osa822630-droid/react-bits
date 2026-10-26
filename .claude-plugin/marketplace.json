@@ -1,0 +1,17 @@
+{
+  "name": "react-bits-marketplace",
+  "owner": {
+    "name": "osa822630-droid"
+  },
+  "metadata": {
+    "description": "Find and use React Bits components in Claude."
+  },
+  "plugins": [
+    {
+      "name": "react-bits",
+      "source": "./plugins/react-bits",
+      "description": "Search the React Bits catalog and use its components in React projects.",
+      "version": "1.0.0"
+    }
+  ]
+}
