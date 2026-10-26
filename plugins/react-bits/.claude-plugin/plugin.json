@@ -1,0 +1,13 @@
+{
+  "name": "react-bits",
+  "displayName": "React Bits",
+  "version": "1.0.0",
+  "description": "Find React Bits components and integrate their actual source into React projects.",
+  "author": {
+    "name": "osa822630-droid",
+    "url": "https://github.com/osa822630-droid"
+  },
+  "homepage": "https://reactbits.dev",
+  "repository": "https://github.com/osa822630-droid/react-bits",
+  "keywords": ["react", "components", "animation", "ui"]
+}

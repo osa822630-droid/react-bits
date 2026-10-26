@@ -95,6 +95,16 @@ npx jsrepo@latest add https://reactbits.dev/r/SplitText-TS-TW
 
 Prefer to copy by hand? Open a component's Code tab, pick your flavor and paste the files into your project. The [installation guide](https://reactbits.dev/get-started/installation) covers both.
 
+### Claude on the web
+
+To use React Bits in Claude chat without Claude Code:
+
+1. Open **Customize → Plugins → Add → Add marketplace → Add from a repository**.
+2. Enter `osa822630-droid/react-bits` (or `https://github.com/osa822630-droid/react-bits`) and add it.
+3. Open **Discover**, find **React Bits**, and click **Add**. Start a chat and ask Claude to use React Bits, or select its skill from the `/` menu.
+
+The plugin searches a bundled catalog and fetches component source from the public registry when network access is available. If it cannot fetch source, it can still suggest components and installation links. See the [Arabic Claude Web guide](docs/claude-web.ar.md) for setup and troubleshooting.
+
 ### Use it with your agent
 
 React Bits works with the shadcn MCP server, so Claude Code, Cursor, Codex, VS Code and Antigravity can find and add components for you. Add the registry to your `components.json`:

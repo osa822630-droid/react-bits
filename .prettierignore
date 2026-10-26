@@ -32,6 +32,7 @@ Thumbs.db
 coverage/
 *.tsbuildinfo
 registry.json
+plugins/react-bits/skills/react-bits/assets/catalog.json
 
 # Other
 Components.js
